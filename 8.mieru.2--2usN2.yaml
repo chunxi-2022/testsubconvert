@@ -1,0 +1,17 @@
+# Profile Template for Clash Verge
+
+proxies:
+  - name: dongtaiwang.com_0                     
+    type: mieru
+    server: 45.145.75.219
+    port: 55778
+    transport: TCP
+    udp: true
+    username: dongtaiwang.com
+    password: dongtaiwang.com
+    multiplexing: MULTIPLEXING_HIGH
+
+proxy-groups: []
+
+rules:
+  - MATCH,dongtaiwang.com_0
