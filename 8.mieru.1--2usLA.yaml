@@ -1,0 +1,15 @@
+proxies:
+  - name: dongtaiwang.com_1                     
+    type: mieru
+    server: 45.221.98.11
+    port: 28866
+    transport: TCP
+    udp: true
+    username: dongtaiwang.com
+    password: dongtaiwang.com
+    multiplexing: MULTIPLEXING_HIGH
+
+proxy-groups: []
+
+rules:
+  - MATCH,dongtaiwang.com_1
